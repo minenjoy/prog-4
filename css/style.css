@@ -1,0 +1,39 @@
+body{
+    background-image:linear-gradient(90deg, rgba(255,255,255,0.5158438375350141) 0%, rgba(255,255,255,1) 100%),url("../img/SFONDO.jpg");
+
+ 
+}
+
+#menu{
+display: flex;
+justify-content: space-between;
+align-items: flex-start;
+
+border-radius: 0px 0px 13px 13px / 15px 0px 71px 71px;
+background-color: rgba(0,0, 0,0.3);
+}
+#menu div{
+    padding:  1% 5%;
+}
+#menu div:hover{
+    background: rgb(2,0,36);
+    background: radial-gradient(circle, rgba(2,0,36,1) 0%, rgba(135,115,152,1) 25%, rgba(114,0,200,1) 58%, rgba(9,9,121,1) 81%, rgba(0,212,255,1) 100%);
+    border-radius: 0px 0px 13px 13px / 15px 0px 71px 71px;
+    #menu div a:hover{color: white;}
+}
+a{
+    color: black;
+    text-decoration: none;
+    font-size:xx-large;
+
+}
+
+#img{
+display: flex;
+justify-content: center;    
+}
+#img img{
+max-height: calc(100vh - 95px);
+    object-fit: cover;
+
+}
